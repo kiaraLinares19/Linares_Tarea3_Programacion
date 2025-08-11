@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Linares_Tarea3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5718da27f3e4fb8ebece8699291030c0dee88da0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+487f83666d2e4ef29073a4f2aa691e5ad0cbc6b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Linares_Tarea3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Linares_Tarea3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
