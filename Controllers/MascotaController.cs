@@ -16,7 +16,7 @@ namespace Linares_Tarea3_Programacion.Controllers
         {
             if (ModelState.IsValid)
             {
-                ViewBag.Mensaje = "Mascota registrada con éxito 🎉";
+                ViewBag.Mensaje = "Mascota registrada con éxito";
                 return View("Confirmacion", mascota);
             }
 
