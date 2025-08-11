@@ -1,0 +1,21 @@
+@model List<Linares_Tarea3_Programacion.Models.Producto>
+@{
+    ViewData["Title"] = "Lista de Productos para Mascotas";
+}
+
+<h2 class="text-primary">Selecciona productos para tu mascota</h2>
+<hr />
+
+<form asp-action="Confirmacion" method="post" class="p-4 shadow rounded bg-light">
+    @foreach (var producto in Model)
+    {
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" name="seleccionados" value="@producto.Nombre" id="@producto.Nombre">
+            <label class="form-check-label" for="@producto.Nombre">
+                <strong>@producto.Nombre</strong> - $@producto.Precio
+            </label>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-success mt-3">Confirmar selección</button>
+</form>

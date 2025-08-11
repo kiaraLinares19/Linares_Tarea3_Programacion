@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Confirmación de Productos";
+}
+
+<div class="alert alert-success mt-4">
+    <h4>Productos seleccionados con éxito 🎉</h4>
+    <ul>
+        @foreach (var item in ViewBag.Seleccionados as List<string>)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>
+
+<a asp-action="Lista" class="btn btn-primary">Seleccionar más productos</a>
